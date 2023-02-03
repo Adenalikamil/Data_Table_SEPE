@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+#idsepe{
+    background:  url(ima1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.idsepe-text{
+    text-align: center;
+    color: #212F3D;
+    padding-top: 80px;
+}
+
+.idsepe-text h1{
+    font-size: 50px;
+}
+
+.idsepe-btn {
+    margin: 70px auto 0;
+    padding: 200px;
+    
+}
+
+.idsepe-btn a{
+    color:#2471A3;
+    border: 3px solid #839192;
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #00000040;
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.idsepe-btn a:hover{
+    color: white;
+    border: 3px solid white;
+}
+
+.heading {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    padding: 50px;
+    
+    
+  }
+  
