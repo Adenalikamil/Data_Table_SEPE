@@ -34,7 +34,7 @@
 
 
 .idsepe-btn a{
-    color:rgb(163, 83, 36);
+    color:black;
     border: 3px solid #839192;
     padding: 8px 20px;
     text-decoration: none;
@@ -49,7 +49,6 @@
 
 .idsepe-btn a:hover{
     color: white;
-    
     background: #839192;
 }
 
