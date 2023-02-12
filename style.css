@@ -4,6 +4,8 @@
     font-family: 'Poppins',sans-serif;
 }
 
+.Accueil{}
+
 #idsepe{
     background:  url(ima1.png);
     background-size: cover;
@@ -20,6 +22,7 @@
 
 .idsepe-text h1{
     font-size: 50px;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .idsepe-btn {
@@ -28,20 +31,26 @@
     
 }
 
+
+
 .idsepe-btn a{
-    color:#2471A3;
+    color:rgb(163, 83, 36);
     border: 3px solid #839192;
     padding: 8px 20px;
     text-decoration: none;
-    background-color: #00000040;
+    background-color: #02b8dd;
     display: inline-block;
     margin-top: 18px;
     font-size: 14px;
+    font-family: "Courier New", Courier, monospace;
+    
 }
+
 
 .idsepe-btn a:hover{
     color: white;
-    border: 3px solid white;
+    
+    background: #839192;
 }
 
 .heading {
@@ -52,3 +61,14 @@
     
   }
   
+
+a.button1{
+    color:var(--color1);
+    border: 3px solid var(--color1);
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #00000040;
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 14px;
+}
