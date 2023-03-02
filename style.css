@@ -5,13 +5,10 @@
 }
 
 
-
 #idsepe{
     background:  url(ima1.png);
     background-size: cover;
     background-position: center;
-    
-
 }
 
 .idsepe-text{
@@ -43,23 +40,59 @@
     display: inline-block;
     margin-top: 18px;
     font-size: 14px;
-    font-family: "Courier New", Courier, monospace;
-    
+    font-family: "Courier New", Courier, monospace;  
 }
 
 
 .idsepe-btn a:hover{
     color: white;
-    
     background: #839192;
 }
 
-.heading {
+.heading{
     font-family: "Playfair Display", serif;
-    font-size: 50px;
+    font-size: 30px;
     padding: 50px;
     
-    
-  }
+
+}
   
+
+/* RESPONSIVE DESIGN : MOBILE*/
+
+@media only screen and (max-width: 767px) {
+    .heading{
+        font-family: "Playfair Display", serif;
+        font-size: 20px;
+        padding: 50px;
+    
+    }
+
+    .idsepe-text h1{  
+        padding: 80px;
+        font-size: 30px;
+        font-family: "Courier New", Courier, monospace;
+        
+    }
+    .idsepe-btn a{
+        color:black;
+        border: 3px solid #839192;
+        padding: 8px 20px;
+        text-decoration: none;
+        background-color: #02b8dd;
+        display: inline-block;
+        margin-top: 20px;
+        font-size: 12px;
+        font-family: "Courier New", Courier, monospace;  
+    }
+    .idsepe-btn {
+        margin: 50px auto 0;
+        padding: 250px;
+    }
+      
+
+
+
+
+}
 
