@@ -49,11 +49,39 @@
     background: #839192;
 }
 
-.heading{
+.heading h1{
     font-family: "Playfair Display", serif;
     font-size: 30px;
     padding: 50px;
     
+
+}
+
+.buttom{
+    font-weight: bold;
+    width: 120px;
+    height: 50px;
+    background:#45f086;
+    text-transform: uppercase;
+    border: 1px solid black;
+    color:blueviolet;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    margin-top: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    
+}
+.buttom:hover{
+    background: white;
+    color: #d82c2e;
+    text-decoration: none;  
+}
+
+.head_Etat h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
 
 }
   
@@ -61,11 +89,10 @@
 /* RESPONSIVE DESIGN : MOBILE*/
 
 @media only screen and (max-width: 767px) {
-    .heading{
+    .heading h1{
         font-family: "Playfair Display", serif;
         font-size: 20px;
-        padding: 50px;
-    
+        text-align: center;
     }
 
     .idsepe-text h1{  
@@ -89,6 +116,8 @@
         margin: 50px auto 0;
         padding: 250px;
     }
+
+
       
 
 
